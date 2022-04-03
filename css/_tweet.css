@@ -1,0 +1,46 @@
+.tweet{
+    height: 136px;
+    padding: 15px 10px;
+    gap: 10px;
+    display:flex;
+    border-bottom: 1px solid #6E767D;
+}
+.tweet-profile img{
+    height: 60%;
+}
+.tweet-body{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.tweet-header .info{
+    display: flex;
+    gap: 12px;
+}
+
+.tweet-header .info .name{
+    color:#fff;
+}
+.tweet-header .text{
+    color:#fff;
+    margin-top: 10px;
+    margin-bottom: 16px;
+}
+
+.tweet-header .info .username,
+.tweet-header .info .dot,
+.tweet-header .info .time{
+    color: #6E767D;
+}
+
+.tweet-footer{
+    display: flex;
+    /* justify-content: space-between; */
+    
+}
+.tweet-footer img{
+    margin-right: 110px;
+
+}
+

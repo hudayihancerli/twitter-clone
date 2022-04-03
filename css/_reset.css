@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: tahoma;
+}
+body{
+    color: #fff;/* sil  */
+    background-color: black; /* sil  */
+}
+
+a{
+    text-decoration: none;
+    color: #fff;/* sil  */
+    
+}
+
+ul, ol{
+    list-style: none;
+}
+
+hr{
+    border-color: #6E767D;
+}
+

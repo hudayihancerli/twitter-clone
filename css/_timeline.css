@@ -1,0 +1,58 @@
+@import url("./_tweet.css");
+
+timeline{
+    border-left: 1px solid #6E767D;
+    border-right: 1px solid #6E767D;
+    
+}
+.page-title{
+    display: flex;
+    margin-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    justify-content: space-between;
+}
+
+.tweet-editor{
+    height: 130px;
+    padding: 10px 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content:space-between;
+    border-bottom: 10px solid #202327;
+    
+}
+
+.tweet-editor-text{
+    margin-right: 38px;
+
+}
+.tweet-editor-text p{
+    color: #6E767D;
+    width: 460px;
+
+}
+.tweet-editor-profile{
+    margin-left: 10px;
+}
+
+
+.tweet-editor-icons{
+    margin-left: 70px;
+    display: flex;
+    width: 240px;
+    justify-content: space-between;
+    margin-right: 150px;
+}
+.tweet-editor-button button{
+    border: 0;
+    background-color: #1DA1F2;
+    width: 80px;
+    height: 39px; 
+    border-radius: 47px;
+    color: #fff;
+
+}
+
+

@@ -1,0 +1,44 @@
+trends{
+    padding: 10px 15px;
+}
+
+.search{
+    background-color: #202327;
+    height: 46px;
+    border-radius: 20px;
+    display: flex;
+    padding: 12px;
+    margin-bottom: 50px
+}
+
+.search p{
+    margin-left: 16px;
+}
+
+.trending-list{
+    /* padding: 10px 30px 10px 10px; */
+    display: flex;
+    flex-direction: column;
+    background-color: #202327;
+}
+
+.trending-list p{
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.trending-item{
+    padding: 10px 30px 10px 10px; 
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #ffffff2d;
+}
+.concant .trendingCountry, .concant .tweet-count{
+   color: #ffffff2d;
+}
+.concant .trending{
+    font-weight: bold;
+}
+
+
+
